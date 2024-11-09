@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: blueviolet;
+}
+/* App.css */
+/* App.css */
+.app {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 1.5rem; /* Gap between the cards */
+  padding: 2rem;
+  justify-items: center; /* Center cards horizontally in each cell */
+  align-items: start; /* Align cards at the top of each row */
+}
+
+.card {
+  width: 100%; /* Make sure the card fills each grid cell */
+  max-width: 250px; /* Optional: set a max width to control card size */
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem; /* Space between image and text */
+}
+
+.heading {
+  margin: 70px;
+  text-align: center;
+  color: blueviolet;
+  font-family: 'Courier New', Courier, monospace;
+}
